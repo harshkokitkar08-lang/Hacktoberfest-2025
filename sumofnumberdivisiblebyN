@@ -1,0 +1,10 @@
+L, R, N = map(int, input().split())
+
+
+total = 0
+
+for i in range(L, R + 1):
+    if i % N == 0:
+        total += i
+
+print(total)
